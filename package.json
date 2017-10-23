@@ -1,0 +1,24 @@
+{
+  "name": "khAkAs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib -w",
+    "test": "babel-node spec/run.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-generator-functions": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jasmine": "^2.8.0"
+  },
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
