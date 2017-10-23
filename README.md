@@ -3,7 +3,7 @@ from terminal at project directory
 
 1. npm install
 2. npm run build
-3. jasmine .\spec\appSpec.js
+3. node .\lib\main.js
 
 install jasmine
 npm install -g jasmine
